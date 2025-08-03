@@ -131,18 +131,15 @@ src/
 4. Test thoroughly
 5. Submit a pull request
 
-##  📄License
+### 📄 License
 
-This project is licensed under the MIT License.
+This project is licensed under the **MIT License**.  
+See the [LICENSE](./LICENSE) file for more details.
 
 ---
 
-This layout is **GitHub-optimized**, looks sleek with icons and badges, and should render cleanly in dark/light modes.
+### 🙌 Made with ❤️ by [@imrajeevnayan](https://github.com/imrajeevnayan)
 
-Let me know if you want:
+If you like this project, consider giving it a ⭐  
+Feel free to open issues, contribute, or just say hi!
 
-- A version with screenshots or GIFs  
-- Shield badges for deployment status or GitHub stars  
-- Section for FAQs or roadmap
-
-Just say the word.
