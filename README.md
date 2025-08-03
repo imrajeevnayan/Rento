@@ -1,34 +1,43 @@
-# Rento - Rent Anything, Anywhere
+<h1 align="center">🏡 Rento</h1>
+<p align="center"> <b>Rent Anything, Anywhere</b><br>A modern peer-to-peer rental marketplace built with React, TypeScript, and Tailwind CSS.</p>
 
-A modern peer-to-peer rental marketplace built with React, TypeScript, and Tailwind CSS.
+<p align="center">
+  <img src="https://img.shields.io/badge/React-18-blue?logo=react" alt="React" />
+  <img src="https://img.shields.io/badge/TypeScript-4.x-blue?logo=typescript" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-3.x-38b2ac?logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/Google%20OAuth-enabled-brightgreen" alt="OAuth" />
+  <img src="https://img.shields.io/badge/License-MIT-yellow" alt="License: MIT" />
+</p>
 
-## Features
+---
 
-- 🔍 **Smart Search & Filtering** - Find items by category, location, and price
-- 🤖 **AI-Powered Recommendations** - Personalized suggestions based on user preferences
-- 💬 **Real-time Messaging** - Chat with item owners
-- 🔔 **Smart Notifications** - Stay updated on bookings and messages
-- 💳 **Secure Payments** - Integrated payment gateway with multiple options
-- 🔒 **Google OAuth** - Secure authentication with Google Sign-In
-- 📱 **Responsive Design** - Works perfectly on all devices
-- ⚡ **Conflict Prevention** - Smart booking system prevents double bookings
+## 🚀 Features
 
-## Authentication
+- 🔍 **Smart Search & Filtering** – Find items by category, location, and price  
+- 🤖 **AI-Powered Recommendations** – Personalized suggestions for each user  
+- 💬 **Real-Time Messaging** – Chat with item owners instantly  
+- 🔔 **Smart Notifications** – Stay updated on bookings and conversations  
+- 💳 **Secure Payments** – Integrated payment gateways  
+- 🔐 **Google OAuth** – Secure login with Google  
+- 📱 **Fully Responsive** – Works great on all devices  
+- ⚡ **Booking Conflict Prevention** – Avoids double bookings
 
-The app supports multiple authentication methods:
+---
 
-### Google OAuth Setup
+## 🔐 Google OAuth Setup
 
 1. Go to [Google Cloud Console](https://console.developers.google.com/)
-2. Create a new project or select an existing one
-3. Enable the Google+ API
-4. Create OAuth 2.0 credentials
-5. Add your domain to authorized origins:
-   - For development: `http://localhost:5173`
-   - For production: your domain
-6. Copy the Client ID
-7. Create a `.env` file from `.env.example`
-8. Add your Google Client ID:
+2. Create or select a project  
+3. Enable **OAuth 2.0** credentials  
+4. Add authorized domains:
+   - Development: `http://localhost:5173`
+   - Production: `https://imrajeevnayan.github.io`
+5. Copy your Client ID  
+6. Create a `.env` file:
+   ```bash
+   cp .env.example .env
+
+7. Add your Google Client ID:
    ```
    VITE_GOOGLE_CLIENT_ID=your-google-oauth-client-id-here
    ```
@@ -125,3 +134,15 @@ src/
 ##  📄License
 
 This project is licensed under the MIT License.
+
+---
+
+This layout is **GitHub-optimized**, looks sleek with icons and badges, and should render cleanly in dark/light modes.
+
+Let me know if you want:
+
+- A version with screenshots or GIFs  
+- Shield badges for deployment status or GitHub stars  
+- Section for FAQs or roadmap
+
+Just say the word.
